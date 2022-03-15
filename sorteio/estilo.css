@@ -1,0 +1,60 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border:none;
+    color: white;
+}
+body{
+  
+  background-color: rgb(212, 212, 212);
+  font-family: sans-serif; 
+  height: 100vh; 
+}
+
+#titulo{
+    font-family: 'MV Boli', sans-serif;
+    font-size: 40pt;
+}
+#box{
+    background-image: linear-gradient(to bottom right, rgb(0, 217, 255), rgb(0, 110, 255));
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#textAreaBox{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+#txtItens{
+    width: 300px;
+    resize: none;
+    overflow: auto;    
+    font-size: large;
+    font-family: sans-serif;
+    padding: 0px;
+    border: none;
+    color: black;
+}
+#btn{
+    width: 320px;
+    padding: 15px 0px;
+    cursor: pointer;
+    border-radius: 0px 0px 10px 10px;
+    background-color:rgb(0, 39, 110);
+    color: white;
+    font-size: large;
+}
+#resultado{
+    font-family: 'MV Boli', sans-serif;
+    font-size: 70pt;
+    text-transform: uppercase;
+}
